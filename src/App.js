@@ -19,7 +19,7 @@ function App(props) {
   return (
     <div className="App">
       <h1>
-        It is <span class="text-purple">{date.toLocaleTimeString()}</span>.
+        It is <span className="text-purple">{date.toLocaleTimeString()}</span>.
       </h1>
     </div>
   );
